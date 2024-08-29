@@ -1,72 +1,94 @@
-# Embedded-Bootcamp
-Microcontroller Interfacing:
+# Embedded Bootcamp
 
+## Microcontroller Interfacing
 
+### 1. Understanding Datasheets
+- How to read datasheets effectively.
 
-How to read data sheet
+### 2. Digital Input/Output (DIO) Peripheral
+- DIO Peripheral Overview.
+- Software Design and Layered Architecture.
+- Developing the First DIO Driver.
 
-DIO peripheral.
+### 3. Hardware Interfacing
+- **Interfacing Components:**
+  - LEDs
+  - Switches
+  - Seven-Segment Displays
+  - Relays
+  - Buzzer
+  - Transistor
+  - Optocoupler
+- **Keypad Interfacing:**
+  - Understanding Keypad Operation.
+  - Developing Keypad Driver.
+- **LCD Interfacing:**
+  - Understanding LCD Datasheet.
+  - Creating Custom Characters.
 
-Software design and layered architecture.
+### 4. Motor Control
+- **Motors and Drivers:**
+  - Stepper Motor
+  - DC Motors
+  - Motor Driver Types (H-Bridge, L293D, etc.)
 
-First DIO driver.
+### 5. Interrupts
+- **Introduction to Interrupts:**
+  - Basics of Interrupts.
+  - Configuring External Interrupt (EXTI) Peripheral.
 
-Interfacing [ LEDs - Switches - Seven segments - Relays - Buzzer - Transistor -  Optocoupler].
+### 6. Analog-to-Digital Conversion (ADC)
+- **ADC Theory and Types.**
+- **Interfacing Analog Sensors:**
+  - LM35 Temperature Sensor
+  - Potentiometer
+  - Light Dependent Resistor (LDR)
 
-Keypad Interfacing.
+### 7. Digital-to-Analog Conversion (DAC)
+- **Introduction to DAC.**
 
-LCD Interfacing [understand LCD datasheet - custom character]
+### 8. Timers and Pulse Width Modulation (PWM)
+- **Timers Theory:**
+  - Basics of Timers.
+  - Generating PWM Signals.
+- **PWM Interfacing:**
+  - Buzzer
+  - Servo Motor
+  - L293D Motor Driver
 
-Stepper - DC motors and motor drivers types.
+### 9. Input Capture Unit (ICU)
+- **Understanding the ICU Peripheral.**
+- **Ultrasonic Sensor Interfacing:**
 
-Introduction to interrupt
+### 10. Watchdog Timer
+- **Watchdog Timer Theory and Types.**
 
-EXTI peripheral.
+### 11. Communication Protocols
+- **UART (Universal Asynchronous Receiver/Transmitter):**
+  - Interfacing with USB TTL.
+  - Bluetooth Communication.
+- **SPI (Serial Peripheral Interface) Protocol.**
+- **I2C (Inter-Integrated Circuit) Protocol:**
+  - External EEPROM Interfacing.
+  - I2C I/O Expander.
+- **CAN (Controller Area Network) Protocol:**
+  - Introduction to CAN.
+- **LIN (Local Interconnect Network) Protocol:**
+  - Introduction to LIN.
 
-ADC theory and types.
+### 12. Tools and Equipment
+- **Using Oscilloscopes and Logic Analyzers.**
 
-Interfacing [LM35 - Potentiometer - LDR]
-
-Introduction to DAC.
-
-Timers theory.
-
-PWM Theory
-
-Interfacing [Buzzer - Servo motor - l293d driver]
-
-ICU peripheral
-
-Ultrasonic Sensor interfacing.
-
-Watchdog timer theory and types.
-
-UART Communication protocol
-
-Interfacing with USBttl - Bluetooth
-
-SPI Communication protocol
-
-I2C Communication protocol
-
-External EEPROM.interfacing
-
-I2C I/O Expander.
-
-How to use OSCilloscope and Logic analyzer.
-
-Introduction to CAN.Communication protocol
-
-Introduction to LIN Communication protocol
-
-Introduction to ARM Architecture
-
-introduction to (stm32f103c8t6) Microcontroller RCC & GPIO peripherals
-
-Introduction to bootloader
-
-Introduction to startup code
-
-Understanding linker script
-
-Understanding hex and elf files
+### 13. Advanced Topics
+- **Introduction to ARM Architecture:**
+  - Overview of ARM Architecture.
+- **Introduction to STM32F103C8T6 Microcontroller:**
+  - RCC & GPIO Peripherals.
+- **Bootloader:**
+  - Introduction to Bootloader.
+- **Startup Code:**
+  - Understanding the Startup Code.
+- **Linker Script:**
+  - Introduction to Linker Script.
+- **Understanding File Formats:**
+  - HEX and ELF Files.
